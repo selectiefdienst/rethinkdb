@@ -5,15 +5,15 @@ Released on 2013-10-23
 Bug fix update.
 
 * Server
-  * No longer fail when interrupting `r.js` too early (#1553)
-  * No longer duplicate data for some `get_all` queries (#1541)
-  * No longer cause older versions of rethinkdb to crash when connecting to them (#1483)
+  * `r.js` no longer fails when interrupted too early (#1553)
+  * Data for some `get_all` queries is no longer duplicated (#1541)
+  * Older versions of RethinkDB no longer crash when connecting to them (#1483)
   * Fixed crash `Guarantee failed: [!token_pair->sindex_write_token.has()]` (#1380)
   * Fixed crash caused by rapid resharding (#728)
 * ReQL
   * `pluck` in combination with `limit` now returns a stream when possible (#1502)
 * Python Driver
-  * Fix `undefined variable` error in `tzname()` (#1512)
+  * Fixed `undefined variable` error in `tzname()` (#1512)
 * Ruby Driver
   * Fixed error message when calling unbound function (#1336)
 * Packaging
