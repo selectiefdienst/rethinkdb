@@ -12,9 +12,9 @@ Bug fix update.
   * Fixed crash caused by rapid resharding (#728)
 * ReQL
   * `pluck` in combination with `limit` now returns a stream when possible (#1502)
-* Python Driver
+* Python driver
   * Fixed `undefined variable` error in `tzname()` (#1512)
-* Ruby Driver
+* Ruby driver
   * Fixed error message when calling unbound function (#1336)
 * Packaging
   * Added support for Ubuntu 13.10 (Saucy) (#1554)
